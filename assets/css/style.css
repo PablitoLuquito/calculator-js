@@ -27,12 +27,8 @@ body {
 .container {
   background: #fff;
   padding: 20px;
-  margin: 50px 0;
+  margin: 50px 10px;
   border-radius: 10px;
-}
-
-.calculadora {
-  width: 400px;
 }
 
 .display {
@@ -60,14 +56,4 @@ body {
 
 .btn:hover {
   background: var(--btn-color-darker);
-}
-
-@media (min-width: 425px) {
-  .calculadora {
-    width: auto;
-  }
-  .container {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
 }
